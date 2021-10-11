@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
     <nav id="navbar">
         <header>C++ Documentation</header>
         <ul>
@@ -8,11 +13,9 @@
             <li><a class="nav-link" href="#C_and_C++">C and C++</a></li>
             <li><a class="nav-link" href="#C/C++_Compiler">C/C++ Compiler</a></li>
             <li><a class="nav-link" href="#Hello_World">Hello World</a></li>
-            <li><a class="nav-link" href="#Data_types">Data types</a></li>
-            <li><a class="nav-link" href="#Variables">Variables</a></li>
-            <li><a class="nav-link" href="#Functions">Functions</a></li>
+            <li><a class="nav-link" href="#Data_types_and_Variables">Data types and Variables</a></li>
             <li><a class="nav-link" href="#Conditionals">Conditionals</a></li>
-            <li><a class="nav-link" href="#Classes_and_Objects">Classes and Objects</a></li>
+            <li><a class="nav-link" href="#Loops">Loops</a></li>
             <li><a class="nav-link" href="#Reference">Reference</a></li>
         </ul>
     </nav>
@@ -149,48 +152,108 @@
             </article>
         </section>
 
-        <section class="main-section" id="Data_types">
-            <header>Data types</header>
+        <section class="main-section" id="Data_types_and_Variables">
+            <header>Data types and Variables</header>
             <article>
                 <p>
-                    
+                    Data types in C++ is mainly divided into three types:
                 </p>
+                <ol>
+                    <li>
+                        <strong>Primitive Data Types</strong>: These data types are built-in or 
+                        predefined data types and can be used directly by the user to declare 
+                        variables. example: int, char, float, bool etc. Primitive data types 
+                        available in C++ are:
+                        <ul>
+                            <li>Integer</li>
+                            <li>Character</li>
+                            <li>Boolean</li>
+                            <li>Floating Point</li>
+                            <li>Double Floating Point</li>
+                            <li>Valueless or Void</li>
+                            <li>Wide Character</li>
+                        </ul> 
+                    </li>
+                    <li>
+                        <strong>Derived Data Types</strong>: The data-types that are derived 
+                        from the primitive or built-in datatypes are referred to as Derived 
+                        Data Types. These can be of four types namely:
+                        <ul>
+                            <li>Function</li>
+                            <li>Array</li>
+                            <li>Pointer</li>
+                            <li>Reference</li>
+                        </ul> 
+                    </li>
+                    <li>
+                        <strong>Abstract or User-defined Data types</strong>: These data types 
+                        are defined by user itself. Like, defining a class in C++ or a structure. 
+                        C++ provides the following user-defined datatypes:
+                        <ul>
+                            <li>Class</li>
+                            <li>Structure</li>
+                            <li>Union</li>
+                            <li>Enumeration</li>
+                            <li>Typedef defined Data type</li>
+                        </ul> 
+                    </li>
+                </ol>
             </article>
         </section>
 
-        <section class="main-section" id="Variables">
-            <header>Variables</header>
-            <article>
-                <p>
-                    
-                </p>
-            </article>
-        </section>
-
-        <section class="main-section" id="Functions">
-            <header>Functions</header>
-            <article>
-                <p>
-                    
-                </p>
-            </article>
-        </section>
 
         <section class="main-section" id="Conditionals">
             <header>Conditionals</header>
             <article>
                 <p>
-                    
+                    C++ has the following conditional statements:
                 </p>
+                <ul>
+                    <li>
+                        Use <code>if</code> to specify a block of code to be executed, 
+                        if a specified condition is true.
+                    </li>
+                    <li>
+                        Use <code>else</code> to specify a block of code to be executed, 
+                        if the same condition is false.
+                    </li>
+                    <li>
+                        Use <code>else if</code> to specify a new condition to test, 
+                        if the first condition is false.
+                    </li>
+                    <li>
+                        Use <code>switch</code> to specify many alternative blocks of code 
+                        to be executed.
+                    </li>
+                </ul>
             </article>
         </section>
 
-        <section class="main-section" id="Classes_and_Objects">
-            <header>Classes_and_Objects</header>
+        <section class="main-section" id="Loops">
+            <header>Loops</header>
             <article>
                 <p>
-                    
+                    C++ programming language provides the following types of loops to handle
+                    looping requirements:
                 </p>
+                <ul>
+                    <li>
+                        <code>while</code>: Repeats a statement or group of statements 
+                        while a given condition is true. It tests the condition before executing 
+                        the loop body.
+                    </li>
+                    <li>
+                        <code>for</code>: Execute a sequence of statements multiple times 
+                        and abbreviates the code that manages the loop variable.
+                    </li>
+                    <li>
+                        <code>do...while</code>: Similar to a <code>while</code> statement, 
+                        except that it tests the condition at the end of the loop body. 
+                    </li>
+                    <li>
+                        Nested loops: One or more loops inside any other loop can be used.
+                    </li>
+                </ul>
             </article>
         </section>
 
@@ -198,8 +261,13 @@
             <header>Reference</header>
             <article>
                 <p>
-                    
+                    Documentation in this page is taken from:
                 </p>
+                <ul>
+                    <li><a id="main-doc-link" href="https://www.geeksforgeeks.org/c-plus-plus/" target="_blank">GeeksforGeeks</a></li>
+                    <li><a id="main-doc-link" href="https://www.tutorialspoint.com/cplusplus/index.htm" target="_blank">Tutorialspoint</a></li>
+                    <li><a id="main-doc-link" href="https://www.w3schools.com/CPP/default.asp" target="_blank">W3Schools</a></li>
+                </ul>
             </article>
         </section>
 
