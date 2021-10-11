@@ -32,7 +32,7 @@ header {
 }
 
 #navbar ul {
-    height: 88%;
+    height: 50%;
     padding: 0;
     overflow-y: auto;
     overflow-x: hidden;
@@ -44,6 +44,15 @@ header {
     list-style: none;
     position: relative;
     width: 100%;
+}
+
+#navbar img {
+    display: flex;
+    width: 85%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
 }
 
 #navbar a {
@@ -113,6 +122,10 @@ code {
         margin-left: 0px;
         margin-top: 270px;
     }
+
+    #navbar img {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -125,5 +138,9 @@ code {
         width: 100%;
         padding: 15px 45px 15px 10px;
         min-width: 233px;
+    }
+
+    #nav-bar img {
+        display: none;
     }
 }
