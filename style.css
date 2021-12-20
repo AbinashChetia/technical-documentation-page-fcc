@@ -48,7 +48,11 @@ header {
 
 #navbar img {
     display: flex;
+<<<<<<< HEAD
     width: 68%;
+=======
+    width: 60%;
+>>>>>>> 6786e48145c71a8e295e74b3b3f9bf4de4ce523c
     height: auto;
     justify-content: center;
     align-items: center;
